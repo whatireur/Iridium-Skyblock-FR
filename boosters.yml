@@ -1,0 +1,105 @@
+---
+farmingBooster:
+  item:
+    material: "WHEAT"
+    amount: 1
+    displayName: "&b&lFarming Booster"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Les cultures poussent trop lentement? Achetez ceci"
+    - "&7Boost et doubler la croissance de la récolte."
+    - ""
+    - "&b&lInformation:"
+    - "&b&l * &7Temps: 1 semaine"
+    - "&b&l * &7Temps restant: &b%timeremaining_minutes% minutes et %timeremaining_seconds%\
+      \ seconds"
+    - "&b&l * &7Prix Boost: &b%crystalcost% Crystals et $%vaultcost%"
+    - ""
+    - "&b&l[!] &bFaites un clic droit pour acheter ce booster."
+    slot: 10
+  crystalsCost: 15
+  vaultCost: 10000
+  time: 604800
+  name: "Farming"
+  stackable: true
+  enabled: true
+spawnerBooster:
+  item:
+    material: "SPAWNER"
+    amount: 1
+    displayName: "&b&lSpawner Booster"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Les spawner sont trop lents ? Achetez ceci"
+    - "&7Boost et double la vitesse des spawner"
+    - ""
+    - "&b&lInformation:"
+    - "&b&l * &7Temps: 1 semaine"
+    - "&b&l * &7Temps restant: &b%timeremaining_minutes% minutes et %timeremaining_seconds%\
+      \ seconds"
+    - "&b&l * &7Prix Boost: &b%crystalcost% Crystals et $%vaultcost%"
+    - ""
+    - "&b&l[!] &bFaites un clic droit pour acheter ce booster."
+    slot: 12
+  crystalsCost: 25
+  vaultCost: 50000
+  time: 604800
+  name: "Spawner"
+  stackable: true
+  enabled: true
+experienceBooster:
+  item:
+    material: "EXPERIENCE_BOTTLE"
+    amount: 1
+    displayName: "&b&lExperience Booster"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Gagner de l’expérience trop lentement? Acheter ceci"
+    - "&7Boost et double le drop d'experience."
+    - ""
+    - "&b&lInformation:"
+    - "&b&l * &7Temps: 1 semaine"
+    - "&b&l * &7Temps restant: &b%timeremaining_minutes% minutes et %timeremaining_seconds%\
+      \ seconds"
+    - "&b&l * &7Prix Boost: &b%crystalcost% Crystals et $%vaultcost%"
+    - ""
+    - "&b&l[!] &bFaites un clic droit pour acheter ce booster."
+    slot: 14
+  crystalsCost: 10
+  vaultCost: 1000
+  time: 3600
+  name: "Experience"
+  stackable: true
+  enabled: true
+flightBooster:
+  item:
+    material: "FEATHER"
+    amount: 1
+    displayName: "&b&lFlight Booster"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Vous tombez continuellement de votre île? Achetez ceci"
+    - "&7Boost et donne acces au /is fly."
+    - ""
+    - "&b&lInformation:"
+    - "&b&l * &7Temps: 1 semaine"
+    - "&b&l * &7Temps restant: &b%timeremaining_minutes% minutes et %timeremaining_seconds%\
+      \ seconds"
+    - "&b&l * &7Prix Boost: &b%crystalcost% Crystals et $%vaultcost%"
+    - ""
+    - "&b&l[!] &bFaites un clic droit pour acheter ce booster."
+    slot: 16
+  crystalsCost: 50
+  vaultCost: 100000
+  time: -1
+  name: "Flight"
+  stackable: true
+  enabled: true
